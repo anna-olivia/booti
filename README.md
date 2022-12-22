@@ -30,4 +30,11 @@ For the image source use Unsplash random images, eg.: "https://source.unsplash.c
 
 11. And finally create a `<footer>` element, with a centered paragraph text. 
 
-### That was it, you have your first single page with React and Bootstrap! 🥳
+ **That was it, you have your first single page with React and Bootstrap!** 🥳
+
+
+
+# Reference image: 
+
+
+![Alt](./referenceImage.png)
