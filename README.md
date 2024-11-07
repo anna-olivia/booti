@@ -1,40 +1,70 @@
-# SPA-boilerplate-bootstap-v5
-## Build a real page with React and Bootstrap 5
-In this exercise we are going to use the React-Bootstrap library. You can read about the library here: https://react-bootstrap.netlify.app/
-Only use Bootstrap classes for styling: https://getbootstrap.com/docs/5.0/getting-started/introduction/
+# Getting Started with Create React App
 
-1. Create a react app with: `npx create-react-app .`
-2. Check the documentation and install React-Bootstrap via npm: https://react-bootstrap.netlify.app/getting-started/introduction#installation
-`npm install bootstrap react-bootstrap`
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-3. Import the needed bootstrap css too, to be able to use bootstrap classes later on:
-https://react-bootstrap.netlify.app/getting-started/introduction#css 
-The following line can be included in your src/index.js or App.js file: `import 'bootstrap/dist/css/bootstrap.min.css';`
+## Available Scripts
 
-4. Clean up the React Template: remove the content of the `<header>` element in `app.js`, and it’s classes too. Remove the `app.css`.
-	Check out how you can import components from react-bootstrap: https://react-bootstrap.netlify.app/getting-started/introduction/#importing-components and add a simple navbar to the header element from react-bootstrap: https://react-bootstrap.netlify.app/components/navbar/
-Change the `background` and the `variant` to “dark”
+In the project directory, you can run:
 
-5. Create a main element and inside of it add a grid container. Inside the container create one row with 2 columns having 7/5 ratio: https://react-bootstrap.netlify.app/layout/grid/#responsive-grids
+### `npm start`
 
-6. Add margin-top  and padding-left and right to the row using bootstrap classes: https://getbootstrap.com/docs/5.0/utilities/spacing/#margin-and-padding
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-7. Import the image API and add a fluid and rounded Image to the first column: https://react-bootstrap.netlify.app/components/images/#rb-docs-content 
-For the image source use Unsplash random images, eg.: "https://source.unsplash.com/random/900x500"
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-8. Add a `<h1>` and a `<p>` element to the second column. Add a “read-more” outline `<button>` after the paragraph: https://react-bootstrap.netlify.app/components/buttons/#outline-buttons
+### `npm test`
 
-9. Create a new row, and add a card element with a paragraph with some text, change the background, and the text color.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-10. Add a Card Group with three cards, using random Unsplash images again. https://react-bootstrap.netlify.app/components/cards/#basic-example
+### `npm run build`
 
-11. And finally create a `<footer>` element, with a centered paragraph text. 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
- **That was it, you have your first single page with React and Bootstrap!** 🥳
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-# Reference image: 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-![Alt](./referenceImage.png)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
