@@ -1,8 +1,9 @@
-import ResponsiveAutoExample from "./Grid";
+import Grid from "./Grid";
+
 
 const Main = () => {
     return(
-        <ResponsiveAutoExample />
+        <Grid />
     )
 }
 

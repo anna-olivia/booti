@@ -3,10 +3,11 @@ import React from "react";
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import styles from './styles/Colors.module.css';
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.customText}>
       <Header />
       <Main />
       <Footer />

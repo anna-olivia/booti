@@ -1,0 +1,11 @@
+.customBg {
+    background-color: var(--custom-bg-color) ;
+}
+
+.customBg *  {
+    color: #fff;
+}
+
+.customText  {
+    color: var(--custom-color);
+}

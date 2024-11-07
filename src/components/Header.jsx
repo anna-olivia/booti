@@ -1,8 +1,8 @@
-import BasicExample from './Navbar';
+import Navi from './Navi';
 
 const Header = () => {
     return (
-        <BasicExample />
+        <Navi />
     );
 }
 

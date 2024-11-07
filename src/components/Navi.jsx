@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import colors from '../styles/Colors.module.css';
 
-function BasicExample() {
+const Navi = () => {
   return (
-    <Navbar expand="lg" bg="dark" variant="dark">
+    <Navbar expand="lg" className={colors.customBg}>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Cooles Logo</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -31,4 +32,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Navi;

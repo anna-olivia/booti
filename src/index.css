@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --custom-bg-color: #889f97;
+  /* je nach Bild Farbe ändern */
+  --custom-shadow: 5px 5px 15px #343d3a;
+  --custom-color: #6D877E;
+  
+}
+
 body {
   font-family: "Segoe UI", Arial, Helvetica, sans-serif;
 }
